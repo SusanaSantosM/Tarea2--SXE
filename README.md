@@ -48,6 +48,25 @@ Dentro de la consola del contenedor hacemos el ping con los comandos:
 
 Realiza correctamente el ping 
 
-![punto3](Imagenes/punto4.png)
+![punto4](Imagenes/punto4.png)
+
+
+### 5.- Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
+Creamos el contenedor con el comando:
+
+``docker run -it --name dam_alp2 alpine tail -f /dev/null``
+
+Luego lo iniciamos con el comando:
+
+``docker exec -it dam_alp2 sh``
+
+![Punto5.1](Imagenes/punto5_1.png)
+
+En la consola del contenedor haremos el ping al contenedor de dam_alp1 con ip de este:
+
+``ping 172.17.0.1``
+
+![punto5.2](Imagenes/punto5.png)
+
 
 
