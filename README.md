@@ -37,4 +37,17 @@ Luego ejecutamos con el comando:
 ![punto3](Imagenes/punto3.png)
 
 
+### 4.- Comprueba que ip tiene y si puedes hacer un ping a google.com
+Al tener ejecutado el contenedor podemos entrar a su consola donde haremos un ping a google. Para entrar a su consola usamos los comandos: 
+
+``docker exec -it dam_alp1 sh``
+
+Dentro de la consola del contenedor hacemos el ping con los comandos:
+
+``ping google.com``
+
+Realiza correctamente el ping 
+
+![punto3](Imagenes/punto4.png)
+
 
