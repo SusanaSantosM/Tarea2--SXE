@@ -79,4 +79,12 @@ El contenedor sigue ejecutandose si se desea parar se debe poner el comando:
 ``docker stop dam_alp2``
 
 
+### 7.- ¿Cuánta memoria en el disco duro ocupaste?
+Para ver el uso de memoria en tiempo real del contenedor dam_alp2 uso el comando:
+
+``docker stats dam_alp2``
+
+![punto7](Imagenes/punto7.png)
+
+
 
