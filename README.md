@@ -87,4 +87,11 @@ Para ver el uso de memoria en tiempo real del contenedor dam_alp2 uso el comando
 ![punto7](Imagenes/punto7.png)
 
 
+### 8.- ¿Cuánta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+Para ver el uso de la Ram debemos usar el comando:
 
+``docker stats -a``
+
+Se  visualizará de todos los contenedores, estén o no en ejecución.
+
+![punto8](Imagenes/punto8.png)
