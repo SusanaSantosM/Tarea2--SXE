@@ -69,4 +69,14 @@ En la consola del contenedor haremos el ping al contenedor de dam_alp1 con ip de
 ![punto5.2](Imagenes/punto5.png)
 
 
+### 6.- Sal del terminal, ¿qué ocurrió con el contenedor?
+Para salir de la terminal es con el comando:
+
+``shift+d``
+
+El contenedor sigue ejecutandose si se desea parar se debe poner el comando:
+
+``docker stop dam_alp2``
+
+
 
